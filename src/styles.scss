@@ -204,6 +204,17 @@ main {
                         .title {
                             color: #000000;
                         }
+
+                        .container-two-iframes {
+                            display: flex;
+                            flex-direction: row;
+                            width: 100%;
+                            align-items: center;
+
+                            iframe {
+                                width: 50%;
+                            }
+                        }
                     }
 
                     .lightbox__content iframe {
